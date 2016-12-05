@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>SmakTest</title>
-	<link rel="stylesheet" href="css.css" type="text/css">
+	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
 
@@ -43,12 +43,13 @@
 <section id="services" class="services">
 
 	<div class="services__up align-center">
-		<div class="size">
+		<div class="wrapper">
 
 			<h4 class="upper">our services</h4>
 			<h2 class="upper">what we love to do</h2>
 			<hr class="line"/>
-			<div class="services__up--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aspernatur consectetur distinctio eius eligendi est expedita illo impedit in incidunt laudantium nam nesciunt nihil obcaecati officia officiis, pariatur quidem repellendus sit suscipit unde veritatis voluptas! Atque aut beatae enim harum hic nam nisi porro, quisquam rem sint totam vero! Assumenda, consectetur distinctio et ipsa mollitia numquam?
+			<div class="services__up--text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aspernatur consectetur distinctio eius eligendi est expedita illo impedit in incidunt laudantium nam nesciunt nihil obcaecati officia officiis, pariatur quidem repellendus sit suscipit unde veritatis voluptas! Atque aut beatae enim harum hic nam nisi porro, quisquam rem sint totam vero! Assumenda, consectetur distinctio et ipsa mollitia numquam?</p>
 			</div>
 
 			<div class="services__up--score upper" data-id="1">Web design
@@ -67,7 +68,7 @@
 		</div>
 	</div>
 	<div class="services__down align-center">
-		<div class="size">
+		<div class="wrapper">
 			<div class="services__down--caption upper">How we do it</div>
 			<div class="services__down--caption-under">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem labore odit tempora! Deleniti doloremque ducimus id in obcaecati officiis quasi.
 			</div>
@@ -94,7 +95,7 @@
 
 </section>
 <section id="works" class="works">
-	<div class="size">
+	<div class="wrapper">
 		<div class="works__main align-center">
 			<h4 class="upper">our works</h4>
 			<h2 class="upper">What we done so far</h2>
@@ -107,17 +108,28 @@
 					<div class="works__main_info--right-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam aperiam asperiores fugit, iste laborum magnam molestias nesciunt nisi odit recusandae ullam voluptatem. Aperiam dignissimos dolores eaque enim eum itaque nostrum, perferendis praesentium rem? Adipisci ea earum maxime neque optio?</div>
 					<div class="works__main_info--right-btn">
 						<a href="https://www.google.ru/" >
-							<div class="works__main_info--right-btn-text">Viev live</div>
+							<div class="works__main_info--right-btn-text">View live</div>
 						</a>
 					</div>
 				</div>
-				<div class="works__main_info--left"></div>
+				<div class="works__main_info--left">
+
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="works__gallery"></div>
+	<div class="works__gallery">
+		<div class="works__gallery--block" data-id="1"></div>
+		<div class="works__gallery--block" data-id="2"></div>
+		<div class="works__gallery--block" data-id="3"></div>
+		<div class="works__gallery--block" data-id="4"></div>
+		<div class="works__gallery--block" data-id="5"></div>
+		<div class="works__gallery--block" data-id="6"></div>
+		<div class="works__gallery--block" data-id="7"></div>
+		<div class="works__gallery--block" data-id="8"></div>
+	</div>
 	<div class="works__question align-center">
-		<div class="size">
+		<div class="wrapper">
 			<div class="works__question--caption upper">Do you like our portfolio?</div>
 			<div class="works__question--caption-under">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur eaque error et necessitatibus veritatis.</div>
 
@@ -130,7 +142,7 @@
 		</div>
 	</div>
 	<div class="works__numbers align-center">
-		<div class="size">
+		<div class="wrapper">
 			<div class="works__numbers--caption upper">We are proud of these numbers</div>
 			<div class="works__numbers--caption-under">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolorum, eveniet hic ipsa sapiente unde.</div>
 			<div class="works__numbers--frame">
@@ -154,7 +166,7 @@
 </section>
 <section id="about" class="about">
 	<div class="about__main align-center">
-		<div class="size">
+		<div class="wrapper">
 			<h4 class="upper">About us</h4>
 			<h2 class="upper">Who we are</h2>
 			<hr class="line"/>
@@ -184,7 +196,7 @@
 		<div class="about__team--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi esse nostrum quo temporibus veniam!</div>
 
 		<div class="about__team--info">
-			<div class="size">
+			<div class="wrapper">
 				<div class="about__team--info-percon" data-id="1">
 					<div class="about__team--info-person-name"></div>
 					<div class="about__team--info-person-job"></div>
@@ -208,7 +220,7 @@
 	</div>
 </section>
 <section id="clients" class="clients">
-	<div class="size">
+	<div class="wrapper">
 		<div class="clients__up align-center">
 			<h4 class="upper">Our clients</h4>
 			<h2 class="upper">Who love to work with us</h2>
@@ -224,7 +236,7 @@
 		</div>
 	</div>
 	<div class="clients__down align-center">
-		<div class="size">
+		<div class="wrapper">
 			<div class="clients__down--text"><p>"An image is not a simply a trademark, a design, a slogan or an easily remembered picture. It is a studiosly crafted personality profile of an individual, institution, corporation, product or&nbsp;service"</p></div>
 			<hr class="line">
 			<div class="clients__down--author">Daniel J. Boorstin</div>
@@ -234,7 +246,7 @@
 </section>
 <section id="contacts" class="contacts">
 	<div class="contacts__up align-center">
-		<div class="size">
+		<div class="wrapper">
 			<h4 class="upper">Contact us</h4>
 			<h2 class="upper">Where you can find us</h2>
 			<hr class="line">
@@ -253,7 +265,7 @@
 		</div>
 	</div>
 	<div class="contacts__down align-center">
-		<div class="size">
+		<div class="wrapper">
 			<h4></h4>
 			<h2 class="upper">Send us a message</h2>
 			<div class="contacts__down--text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fugit maxime molestias optio pariatur placeat?</p></div>
@@ -270,6 +282,7 @@
 
 <footer></footer>
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/gallery.js"></script>
 </body>
 </html>
