@@ -326,27 +326,25 @@ a{
 	width: 25%;
 	height: 250px;
 }
-[data-id="11"] {
-	background-size: auto 100%;
+[data-id="11"] {background-size: 100% auto;
 	background-image: url('img/gallery/gallery1.jpg');}
-[data-id="12"] {
-	background-size: auto 100%;
+[data-id="12"] {background-size: 100% 100%;
 	background-image: url('img/gallery/gallery2.jpg');}
-[data-id="13"] {background-size: auto 100%;
+[data-id="13"] {background-size: 100% 100%;
 	background-image: url('img/gallery/gallery3.jpg');}
-[data-id="14"] {background-size: auto 100%;
+[data-id="14"] {background-size: 100% 100%;
 	background-image: url('img/gallery/gallery4.jpg');}
-[data-id="15"] {background-size: auto 100%;
+[data-id="15"] {background-size: 100% 100%;
 	background-image: url('img/gallery/gallery5.jpg');}
-[data-id="16"] {background-size: auto 100%;
+[data-id="16"] {background-size: 100% 100%;
 	background-image: url('img/gallery/gallery6.jpg');}
-[data-id="17"] {background-size: auto 100%;
+[data-id="17"] {background-size: 100% 100%;
 	background-image: url('img/gallery/gallery7.jpg');}
-[data-id="18"] {background-size: auto 100%;
+[data-id="18"] {background-size: 100% 100%;
 	background-image: url('img/gallery/gallery8.jpg');}
 
-.works__gallery--block1 {
-	user-select: none;
+#big {
+	background-size: auto 100%;
 }
 
 .works__question {
